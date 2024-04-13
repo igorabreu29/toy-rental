@@ -1,0 +1,61 @@
+@media (min-width: 53rem) {
+    .menu-button, .menu-aria {
+        right: 2rem;
+    }
+
+    .title-aria h1 {
+        font-size: 2.75rem;
+    }
+
+    .content-aria {
+        font-size: 0.875rem;
+    }
+
+    .aria {
+        padding: 2rem 4rem;
+    }
+
+    .toy-aria {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+
+        border-top: 0;
+    }
+
+    .toy-aria.jump {
+        display: flex;
+    }
+    
+    .toy-aria.jump-mobile {
+        display: none;
+    }
+
+    .toys {
+        gap: 2rem;
+    }
+
+    .card-image {
+        min-width: 25rem;
+        height: 28rem;
+    }
+
+    .card-image .card-information span {
+        font-size: 1rem;
+    }
+
+    .services p {
+        font-size: 0.975rem;
+        text-align: left;
+    }
+
+    footer span:nth-child(1) {
+        font-size: 1rem;
+    }
+
+    footer span:nth-child(2) {
+        font-size: 0.875rem;
+    }
+}
